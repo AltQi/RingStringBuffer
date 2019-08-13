@@ -17,7 +17,7 @@ import java.util.Arrays;
  * buffer.get(1); -> return "a".
  * buffer.put("def"); // bcdef
  * buffer.put("aaa"); // bcdefaaa. When the size is not enough, double the size. size=10
- * buffer.size(); -> return 10;
+ * buffer.size(); -> return 10; 
  * buffer.get(6); -> return "bcdefa"
  * buffer.size(); -> return 10;
  * buffer.put("aaa")// aaaaa
